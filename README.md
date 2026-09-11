@@ -1,14 +1,14 @@
-# NITP Campus Wi-Fi Portal
+# NITPY Campus Wi-Fi Portal
 
 A modern and user-friendly **Campus Wi-Fi Login Portal** for **National Institute of Technology Puducherry (NIT Puducherry)**.
 
 ## What the Application Does
 
-The NITP Campus Wi-Fi Portal provides students and authorized users with a simple interface to connect to the institute's Wi-Fi network.
+The NITPY Campus Wi-Fi Portal provides students and authorized users with a simple interface to connect to the institute's Wi-Fi network.
 
 ### Features
 
-- Displays the **NITP Campus Wi-Fi** network information.
+- Displays the **NITPYy Campus Wi-Fi** network information.
 - Shows the network's **encryption details**.
 - Provides the campus Wi-Fi **terms and conditions**.
 - Allows users to accept the terms before continuing.
@@ -23,7 +23,7 @@ The NITP Campus Wi-Fi Portal provides students and authorized users with a simpl
 ```text
 Open Wi-Fi Portal
        ↓
-View NITP Campus Wi-Fi Information
+View NITPYy Campus Wi-Fi Information
        ↓
 Read Terms & Conditions
        ↓
