@@ -1,135 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>NIT Puducherry | Network Operating Center</title>
-
-    <link rel="stylesheet" href="wifi.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#062a5b"><title>NIT Puducherry Wi-Fi | Terms</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @media (min-width: 721px) {
+      body { overflow: hidden; }
+      .shell { min-height: 100dvh; padding: 12px 16px; }
+      .card { max-height: calc(100dvh - 24px); }
+      .brand { min-height: 102px; padding: 18px 36px; }
+      .brand .logo { width: 58px; height: 58px; flex-basis: 58px; }
+      .steps { padding: 14px 32px; }
+      .main-panel { padding: 19px 36px; }
+      .main-panel .notice { margin: 14px 0 12px; }
+      .terms { height: clamp(145px, 20vh, 170px); }
+      .network { padding: 19px 30px; }
+      .network .bars { height: 28px; margin: 0 0 9px; }
+      .network .bars i:nth-child(1) { height: 7px; }.network .bars i:nth-child(2) { height: 13px; }.network .bars i:nth-child(3) { height: 20px; }.network .bars i:nth-child(4) { height: 28px; }
+      .network h2 { font-size: 22px; }.network > p:not(.eyebrow) { font-size: 12px; }.network dl { margin: 10px 0; }.network dl div { padding: 6px 0; }.help { padding: 10px; }
+      footer { padding: 13px 32px; }
+    }
+  </style>
 </head>
-
 <body>
-
-    <main class="container">
-
-        <section class="card">
-
-            <!-- =========================
-                 Header
-            ========================== -->
-            <header class="heading">
-
-                <img
-                    src="NIT_Puducherry_Official_logo.png"
-                    alt="NIT Puducherry Logo"
-                    class="logo"
-                >
-
-                <div class="header-text">
-                    <h1>NIT PUDUCHERRY</h1>
-                    <h2>NETWORK OPERATING CENTER</h2>
-                </div>
-
-            </header>
-
-
-            <!-- =========================
-                 Terms Notice
-            ========================== -->
-            <div class="note">
-
-                <span>
-                    Please read and accept our
-                </span>
-
-                <strong>
-                    Terms and Conditions
-                </strong>
-
-            </div>
-
-
-            <!-- =========================
-                 Terms & Conditions
-            ========================== -->
-            <section class="terms-section">
-
-                <textarea
-                    name="Terms"
-                    id="Terms"
-                    class="terms"
-                    readonly
-                >Terms of Use
-
-By accepting this agreement and accessing the wireless network, you acknowledge that you are of legal age, you have read and understood, and agree to be bound by this agreement.
-
-(*) The wireless network service is provided by the property owners and is completely at their discretion. Your access to the network may be blocked, suspended, or terminated at any time for any reason.
-
-(*) You agree not to use the wireless network for any purpose that is unlawful or otherwise prohibited and you are fully responsible for your use.
-
-(*) The wireless network is provided "as is" without warranties of any kind, either expressed or implied.
-
-This wireless network is powered by System Administrator, Network Operating Centre, NIT Puducherry.</textarea>
-
-            </section>
-
-
-            <!-- =========================
-                 Terms Acceptance
-            ========================== -->
-            <label class="checkbox">
-
-                <input
-                    type="checkbox"
-                    id="acceptTerms"
-                    required
-                >
-
-                <span>
-                    I have read and accept the Terms and Conditions
-                </span>
-
-            </label>
-
-
-            <!-- =========================
-                 Next Button
-            ========================== -->
-            <form action="login.html">
-
-                <button
-                    type="submit"
-                    class="next"
-                >
-
-                    <span>Next</span>
-
-                    <span class="arrow">
-                        →
-                    </span>
-
-                </button>
-
-            </form>
-
-
-            <!-- =========================
-                 Footer
-            ========================== -->
-            <footer>
-
-                <p>
-                    © NIT Puducherry • Network Operating Center
-                </p>
-
-            </footer>
-
-        </section>
-
-    </main>
-
+  <main class="shell"><section class="card" aria-labelledby="title">
+    <header class="brand">
+      <a class="logo" href="index.html" aria-label="NIT Puducherry Wi-Fi home"><img src="NIT_Puducherry_Official_logo.png" alt="NIT Puducherry logo" onerror="this.hidden=true;this.parentElement.classList.add('fallback')"><b>NITP</b></a>
+      <div><p class="eyebrow">NATIONAL INSTITUTE OF TECHNOLOGY PUDUCHERRY</p><h1 id="title">Campus Wi-Fi</h1><p class="sub">Network Operations Centre</p></div>
+      <span class="secure">⌁ Secure access</span>
+    </header>
+    <nav class="steps" aria-label="Connection steps"><span class="active"><b>1</b>Terms</span><i></i><span><b>2</b>Sign in</span><i></i><span><b>3</b>Connect</span></nav>
+    <div class="columns">
+      <section class="main-panel" aria-labelledby="terms-title">
+        <div class="heading"><div><p class="eyebrow">WI-FI ACCESS POLICY</p><h2 id="terms-title">Terms of access</h2></div><small>2 min read</small></div>
+        <div class="notice"><b>i</b><span>Please review these terms before joining the NIT Puducherry wireless network.</span></div>
+        <article class="terms" tabindex="0"><h3>Responsible network use</h3><p>By connecting to this wireless network, you confirm that you have read, understood and agree to these terms of use.</p><ul><li>Access is provided at the discretion of the Network Operations Centre and may be suspended or withdrawn when required.</li><li>Use the network only for lawful, academic and authorised purposes. You are responsible for all activity through your account.</li><li>Do not bypass security controls, disrupt service, or access systems and data without permission.</li><li>The service is provided on an “as is” basis. Availability and performance are not guaranteed.</li></ul><p>For assistance, contact the Network Operations Centre. Misuse may result in loss of access and action under institute policy.</p></article>
+        <form id="terms-form" action="login.html"><label class="check"><input id="accept" type="checkbox" required><em>✓</em><span>I have read and agree to the <a href="#terms-title">Terms of Access</a>.</span></label><button class="button" type="submit">Continue to sign in <b>→</b></button></form>
+      </section>
+      <aside class="network"><div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></div><p class="eyebrow">YOU ARE CONNECTING TO</p><h2>NITP Campus Wi-Fi</h2><p>Use your institute credentials to securely access the internet and campus resources.</p><dl><div><dt>Network</dt><dd>NITP-WiFi</dd></div><div><dt>Encryption</dt><dd>WPA2 Enterprise</dd></div><div><dt>Support</dt><dd>noc@nitpy.ac.in</dd></div></dl><div class="help"><b>?</b><p><strong>Need help?</strong><br>Visit the NOC or contact the IT helpdesk.</p></div></aside>
+    </div>
+    <footer><span>© <span id="year"></span> NIT Puducherry</span><span>•</span><a href="#terms-title">Privacy &amp; acceptable use</a></footer>
+  </section></main><script src="portal.js"></script>
 </body>
-
 </html>
