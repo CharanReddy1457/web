@@ -424,7 +424,7 @@ dd{
   overflow-wrap:anywhere;
 }
 .help {
-  display: flex;
+  display: none !important;
   align-items: center;
   justify-content: center;
   gap: 12px;
