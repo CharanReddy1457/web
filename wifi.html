@@ -3,30 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wifi</title>
+    <title>NIT Puducherry | Network Operating Center</title>
     <link rel="stylesheet" href="wifi.css">
 </head>
+
 <body>
-    <form action="http://127.0.0.1:5500/login.html">
-        <div class="heading">
-        <p>
-            <img src="image/images.jpeg" alt="Rukus wireless" width="50px" height="50px">
-            <h1>NIT PUDUCHERRY-NETWORK OPERATING CENTER</h1>
-        </p>
-    </div>
-    <p class="note">Please read and accept our <b>Terms and Conditions</b> </p>
- <p class="textarea"><textarea name="Terms" id="Terms" cols="81" rows="18" class="terms">
-Terms of Use
+
+    <main class="container">
+
+        <section class="card">
+
+            <!-- Header -->
+            <header class="heading">
+                <img
+                    src="image/images.jpeg"
+                    alt="NIT Puducherry Network"
+                    class="logo"
+                >
+
+                <div>
+                    <h1>NIT PUDUCHERRY</h1>
+                    <h2>NETWORK OPERATING CENTER</h2>
+                </div>
+            </header>
+
+            <!-- Notice -->
+            <div class="note">
+                Please read and accept our
+                <strong>Terms and Conditions</strong>
+            </div>
+
+            <!-- Terms -->
+            <section class="terms-section">
+                <textarea
+                    name="Terms"
+                    id="Terms"
+                    class="terms"
+                    readonly
+                >Terms of Use
 
 By accepting this agreement and accessing the wireless network, you acknowledge that you are of legal age, you have read and understood, and agree to be bound by this agreement.
+
 (*) The wireless network service is provided by the property owners and is completely at their discretion. Your access to the network may be blocked, suspended, or terminated at any time for any reason.
+
 (*) You agree not to use the wireless network for any purpose that is unlawful or otherwise prohibited and you are fully responsible for your use.
+
 (*) The wireless network is provided "as is" without warranties of any kind, either expressed or implied.
 
-This wireless network is powered by System Administrator, Network Operating Centre, NIT Puducherry.
- </textarea></p>
- <p class="checkbox" ><input type="checkbox">I have read and accept the Terms and conditions</p>
- <div><p class="submit"><input type="submit" value="Next" name="next" id="next" class="next"></p></div>
-    </form>
+This wireless network is powered by System Administrator, Network Operating Centre, NIT Puducherry.</textarea>
+            </section>
+
+            <!-- Agreement -->
+            <label class="checkbox">
+                <input type="checkbox" id="acceptTerms" required>
+                <span>I have read and accept the Terms and Conditions</span>
+            </label>
+
+            <!-- Button -->
+            <form action="login.html">
+                <button type="submit" class="next">
+                    Next
+                    <span>→</span>
+                </button>
+            </form>
+
+            <footer>
+                <p>© NIT Puducherry • Network Operating Center</p>
+            </footer>
+
+        </section>
+
+    </main>
+
 </body>
 </html>
