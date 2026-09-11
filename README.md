@@ -8,7 +8,7 @@ The NITPY Campus Wi-Fi Portal provides students and authorized users with a simp
 
 ### Features
 
-- Displays the **NITPYy Campus Wi-Fi** network information.
+- Displays the **NITPY Campus Wi-Fi** network information.
 - Shows the network's **encryption details**.
 - Provides the campus Wi-Fi **terms and conditions**.
 - Allows users to accept the terms before continuing.
